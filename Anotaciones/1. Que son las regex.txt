@@ -1,0 +1,42 @@
+---------------- Que son las regular expression ---------------
+
+Las regex o regular expression son formulas de busqueda por conicidencia
+que nos sirven para trabajar con cadena de caracterees.
+
+La definición básica de una regex: 
+    - /<coincidencia>/
+    - new Regex(<expresion>)
+
+Podemos buscar cadenas específicas de caracteres ó podemos generar coincidencias
+mas genericas mediante expresiones. 
+
+    Componentes de las regex:
+        1- grupos -> []
+        2- intervalos -> {}
+
+Utilidaddes básicas:
+    1. Grupo de la "a" a la "z"  -> [a-z]
+    2. Grupo de la "A" a la "Z"  -> [A-Z]
+    3. Combinando lo anterior -> [a-zA-Z]
+    4. Grupo del "0" al "9" -> [0-9]
+
+
+Operadores
+  ^ :  exponencial  -> evalua el inicio de la cadena
+  $ :  pesos        -> fin de la cadena (a)$ termina con a
+
+
+Metacaracteres 
+    \s : espacios en blanco  
+    \d : rango numerico de [0-9]
+    \w : rango de strings [a-zA-Z0-9]
+    \d{1},\d{1,} : numeros de coma flotante ej: 1 numero , un decimal 
+    ? : opcionalidad de match   
+    \s?-? :  o hay espacio o hay un guion medio 
+    \.    escapa el punto que es un caracter especial
+    caracteres que van directo: "-" "@" "_"
+
+Abreviaciones
+    {1,}  ->  +  repetir la coincidencia N veces
+
+Web para probar las regex: https://regex101.com/

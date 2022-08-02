@@ -1,0 +1,30 @@
+{
+  "name": "regular-expression",
+  "version": "1.0.0",
+  "description": "Espresiones regulares",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src",
+    "test": "jest ./test --watch --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sans-Frontieres/regular-expression.git"
+  },
+  "keywords": [
+    "regex",
+    "Node",
+    "Javascript"
+  ],
+  "author": "mikoDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sans-Frontieres/regular-expression/issues"
+  },
+  "homepage": "https://github.com/Sans-Frontieres/regular-expression#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  },
+  "devDependencies": {}
+}
