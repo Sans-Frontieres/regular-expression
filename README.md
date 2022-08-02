@@ -11,15 +11,15 @@ Espresiones regulares
 
 #### Casos de test
 > Suite de test
->> Primeras pruebas
->> Grupos
->> Intervalos
->> Nombres Propios
->> Metacaracteres
->> Patente de auto
->> Teléfonos
->> Email
->> Fechas
+>>Primeras pruebas
+>>Grupos
+>>Intervalos
+>>Nombres Propios
+>>Metacaracteres
+>>Patente de auto
+>>Teléfonos
+>>Email
+>>Fechas
 
 
 _____________
