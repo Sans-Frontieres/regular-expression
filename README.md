@@ -3,7 +3,23 @@ Espresiones regulares
 
 ### Un paseo por regex
 
-> ejemplos 
-> teoria
-> fuente de recursos
-> test de ejercicios
+> Utilidades 
+> Metacaracteres
+> Operadores
+> Abreviaciones
+> Caracteres especiales
+
+#### Casos de test
+> Suite de test
+>> Primeras pruebas
+>> Grupos
+>> Intervalos
+>> Nombres Propios
+>> Metacaracteres
+>> Patente de auto
+>> Teléfonos
+>> Email
+>> Fechas
+
+
+_____________
